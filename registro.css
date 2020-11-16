@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+	display: block;
+    background: rgba(0,0,0,.9);
+	margin-top: -50px;
+}
+.logo{
+	font-size: 60px;
+	text-align: center;
+	margin-top: 50px;
+	-webkit-animation: mover 5s ease;
+	-o-animation: mover 5s ease;
+	-moz-animation: mover 5s ease;
+	color: white;
+	user-select: none;
+	padding: 30px;
+	user-select: none;
+}
+body{
+    background: #ccc;
+}
+@keyframes mover{
+	0%{
+		margin-top: 0px;
+		opacity: 0;
+	}
+	100%{
+		margin-top: 50px;
+	}
+}
+.contenedor{
+    position: absolute;
+    width: 240px;
+    height: 400px;
+    background: rgba(0,0,0,.9);
+    top: 150px;
+    right: 0px;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+    padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 30px 5px black;
+}
+.contenedor .contenedor_inputs input[type="email"], .contenedor .contenedor_inputs input[type="txt"]{
+ display: block;
+ width: 100%;
+ padding: 10px 0px 10px 4px;
+ margin-bottom: 20px;
+ border: none;
+ border-bottom: 4px solid #e02d03;
+ background: rgba(0,0,0,.9);
+ color: white;
+ font-size: 15px;
+}
+.contenedor_inputs{
+	margin-top: 0px;
+	padding: 10px;
+}
+.registro h1{
+   text-align: center;
+   color: white;
+   font-family: sans-serif;
+   font-size: 40px;
+   margin-top: 10px;
+   user-select: none;
+}
+.btn{
+	width: 100%;
+	padding: 20px;
+    display: block;
+	font-size: 20px;
+	font-family: monospace;
+	background:   #e02d03;
+	border: none;
+	cursor: pointer;
+}
+span{
+	color: white;
+	font-size: 19px;
+}
+.cont-btn{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background: white;
+	margin-left: 80px;
+}
+p{
+	position: absolute;
+	font-size:80px;
+	top: 23px;
+	left: 94px;
+}
